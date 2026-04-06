@@ -1,0 +1,3 @@
+packages:
+  - 'apps/manager'
+minimumReleaseAge: 3320

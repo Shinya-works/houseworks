@@ -1,0 +1,18 @@
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/okunoshinya/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260406-93125-5ptmya sitelibdir\=./.gem.20260406-93125-5ptmya clean
+
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260406-93125-5ptmya sitelibdir\=./.gem.20260406-93125-5ptmya
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260406-93125-5ptmya sitelibdir\=./.gem.20260406-93125-5ptmya install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260406-93125-5ptmya/racc
+
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260406-93125-5ptmya sitelibdir\=./.gem.20260406-93125-5ptmya clean

@@ -1,0 +1,19 @@
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+/Users/okunoshinya/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260406-93125-325uv4 sitelibdir\=./.gem.20260406-93125-325uv4 clean
+
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260406-93125-325uv4 sitelibdir\=./.gem.20260406-93125-325uv4
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260406-93125-325uv4 sitelibdir\=./.gem.20260406-93125-325uv4 install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20260406-93125-325uv4/debug
+
+current directory: /Users/okunoshinya/houseworks/apps/api/vendor/bundle/ruby/3.3.0/gems/debug-1.11.1/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20260406-93125-325uv4 sitelibdir\=./.gem.20260406-93125-325uv4 clean

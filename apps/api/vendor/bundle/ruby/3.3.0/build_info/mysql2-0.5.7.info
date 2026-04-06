@@ -1,0 +1,3 @@
+--with-mysql-config=/opt/homebrew/bin/mysql_config
+--with-ldflags=-L/opt/homebrew/lib
+--with-cppflags=-I/opt/homebrew/include

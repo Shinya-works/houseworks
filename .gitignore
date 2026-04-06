@@ -1,0 +1,10 @@
+node_modules/
+.bundle/
+.DS_Store
+.env*
+!.env*.example
+.auth-state.json
+mcp.json
+
+# GitHub Actions 自動実装ワークフローが書き出す一時ファイル（PR メタ等）
+.github/tmp/
