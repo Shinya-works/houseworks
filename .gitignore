@@ -1,7 +1,62 @@
-node_modules/
-.bundle/
+# ==========================================
+# General / OS
+# ==========================================
 .DS_Store
-.env*
+Thumbs.db
+*.swp
+*~
+.project
+.idea/
+.vscode/
+# チームでVS Code設定を共有したい場合は以下をコメントアウトしてください
+# !.vscode/settings.json
+
+# ==========================================
+# Security & Environment (絶対に含めない)
+# ==========================================
+.env
+.env.*
+!.env.example
+config/master.key
+config/credentials/*.key
+
+# ==========================================
+# Rails (Backend)
+# ==========================================
+/log/*
+/tmp/*
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-shm
+/db/*.sqlite3-wal
+/public/assets
+/public/packs
+/public/packs-test
+/node_modules
+/vendor/bundle
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/.keep
+
+# ==========================================
+# Nuxt 3 (Frontend)
+# ==========================================
+node_modules/
+.nuxt/
+.output/
+.nitro/
+.cache/
+dist/
+*.log
+
+# pnpm を使っている場合
+.pnpm-debug.log*
+
+# ==========================================
+# Testing
+# ==========================================
+/coverage/
 !.env*.example
 .auth-state.json
 mcp.json

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  resources :tasks
-  root to: 'tasks#new'
+  namespace :v1 do
+    resources :tasks, only: %i[index show create update destroy]
+  end
 end
