@@ -12,7 +12,9 @@
   "dependencies": {
     "@pinia/nuxt": "^0.11.3",
     "axios": "1.6.7",
+    "camelcase-keys": "^10.0.2",
     "nuxt": "^3.21.2",
+    "snakecase-keys": "^9.0.2",
     "vue": "^3.5.31",
     "vue-router": "^5.0.4"
   }
